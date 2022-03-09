@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+h5, h5 a {
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h5 a {
+    color: black;
+}
+
+.group-heading {
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    border-left: 5px solid #763EA4;
+}
+
+.card {
+    border: 0;
+}
+
+.col-12, .card-body {
+    background-color: #eeeeee;
+}
+
+.item-code {
+    color: #69289e;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
+
+.item-pre-discount {
+    text-decoration: line-through;
+    color: #939492;
+    font-family: 'Roboto',sans-serif;
+}
+
+.item-post-discount {
+    font-size: 20px;
+    color: #DD4B5D;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+}
